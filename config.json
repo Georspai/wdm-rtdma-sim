@@ -1,0 +1,14 @@
+{
+    "num_time_slots": 1000,
+    "num_nodes": 8,
+    "num_wavelengths": 6,
+    "buffer_sizes": 100,
+    "buffer_policies": "fifo-compatible",
+    "arrival_probabilities": 0.7,
+    "tx_channel_ratios": 0.8,
+    "rx_channel_ratios": 0.2,
+    "tx_assignment_policy": "round-robin",
+    "rx_assignment_policy": "round-robin",
+    "destination_policy": "uniform",
+    "seed": 42
+}
